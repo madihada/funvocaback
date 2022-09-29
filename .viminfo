@@ -14,12 +14,12 @@
 $
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1664195122,,"q"
-:wq
-|2,0,1664192945,,"wq"
 :q!
-|2,0,1664192406,,"q!"
+|2,0,1664411984,,"q!"
+:wq
+|2,0,1664411975,,"wq"
+:q
+|2,0,1664411742,,"q"
 :wq!
 |2,0,1664169598,,"wq!"
 
@@ -42,34 +42,60 @@ $
 |3,0,36,0,1,0,1664170761,"/"
 
 # File marks:
-'0  5  20  ~/funvocaback/funvocaback_uwsgi.ini
-|4,48,5,20,1664261131,"~/funvocaback/funvocaback_uwsgi.ini"
-'1  1  2  ~/funvocaback/uwsgi_params
-|4,49,1,2,1664195122,"~/funvocaback/uwsgi_params"
+'0  7  84  /etc/systemd/system/emperor.uwsgi.service
+|4,48,7,84,1664411984,"/etc/systemd/system/emperor.uwsgi.service"
+'1  5  20  ~/funvocaback/funvocaback_uwsgi.ini
+|4,49,5,20,1664411742,"~/funvocaback/funvocaback_uwsgi.ini"
 '2  5  20  ~/funvocaback/funvocaback_uwsgi.ini
-|4,50,5,20,1664192945,"~/funvocaback/funvocaback_uwsgi.ini"
-'3  7  47  ~/funvocaback/funvocaback_uwsgi.ini
-|4,51,7,47,1664192456,"~/funvocaback/funvocaback_uwsgi.ini"
-'4  7  47  ~/funvocaback/funvocaback_uwsgi.ini
-|4,52,7,47,1664192456,"~/funvocaback/funvocaback_uwsgi.ini"
-'5  7  47  ~/funvocaback/funvocaback_uwsgi.ini
-|4,53,7,47,1664192456,"~/funvocaback/funvocaback_uwsgi.ini"
+|4,50,5,20,1664261131,"~/funvocaback/funvocaback_uwsgi.ini"
+'3  1  2  ~/funvocaback/uwsgi_params
+|4,51,1,2,1664195122,"~/funvocaback/uwsgi_params"
+'4  5  20  ~/funvocaback/funvocaback_uwsgi.ini
+|4,52,5,20,1664192945,"~/funvocaback/funvocaback_uwsgi.ini"
+'5  5  20  ~/funvocaback/funvocaback_uwsgi.ini
+|4,53,5,20,1664192945,"~/funvocaback/funvocaback_uwsgi.ini"
 '6  7  47  ~/funvocaback/funvocaback_uwsgi.ini
 |4,54,7,47,1664192456,"~/funvocaback/funvocaback_uwsgi.ini"
-'7  7  48  ~/funvocaback/funvocaback_uwsgi.ini
-|4,55,7,48,1664192406,"~/funvocaback/funvocaback_uwsgi.ini"
-'8  7  48  ~/funvocaback/funvocaback_uwsgi.ini
-|4,56,7,48,1664192406,"~/funvocaback/funvocaback_uwsgi.ini"
-'9  7  48  ~/funvocaback/funvocaback_uwsgi.ini
-|4,57,7,48,1664192406,"~/funvocaback/funvocaback_uwsgi.ini"
+'7  7  47  ~/funvocaback/funvocaback_uwsgi.ini
+|4,55,7,47,1664192456,"~/funvocaback/funvocaback_uwsgi.ini"
+'8  7  47  ~/funvocaback/funvocaback_uwsgi.ini
+|4,56,7,47,1664192456,"~/funvocaback/funvocaback_uwsgi.ini"
+'9  7  47  ~/funvocaback/funvocaback_uwsgi.ini
+|4,57,7,47,1664192456,"~/funvocaback/funvocaback_uwsgi.ini"
 
 # Jumplist (newest first):
+-'  7  84  /etc/systemd/system/emperor.uwsgi.service
+|4,39,7,84,1664411984,"/etc/systemd/system/emperor.uwsgi.service"
+-'  1  0  /etc/systemd/system/emperor.uwsgi.service
+|4,39,1,0,1664411925,"/etc/systemd/system/emperor.uwsgi.service"
+-'  5  20  ~/funvocaback/funvocaback_uwsgi.ini
+|4,39,5,20,1664411742,"~/funvocaback/funvocaback_uwsgi.ini"
+-'  5  20  ~/funvocaback/funvocaback_uwsgi.ini
+|4,39,5,20,1664411742,"~/funvocaback/funvocaback_uwsgi.ini"
+-'  5  20  ~/funvocaback/funvocaback_uwsgi.ini
+|4,39,5,20,1664261131,"~/funvocaback/funvocaback_uwsgi.ini"
 -'  5  20  ~/funvocaback/funvocaback_uwsgi.ini
 |4,39,5,20,1664261131,"~/funvocaback/funvocaback_uwsgi.ini"
 -'  1  2  ~/funvocaback/uwsgi_params
 |4,39,1,2,1664195122,"~/funvocaback/uwsgi_params"
 -'  1  2  ~/funvocaback/uwsgi_params
 |4,39,1,2,1664195122,"~/funvocaback/uwsgi_params"
+-'  1  2  ~/funvocaback/uwsgi_params
+|4,39,1,2,1664195122,"~/funvocaback/uwsgi_params"
+-'  1  2  ~/funvocaback/uwsgi_params
+|4,39,1,2,1664195122,"~/funvocaback/uwsgi_params"
+-'  1  2  ~/funvocaback/uwsgi_params
+|4,39,1,2,1664195122,"~/funvocaback/uwsgi_params"
+-'  1  2  ~/funvocaback/uwsgi_params
+|4,39,1,2,1664195122,"~/funvocaback/uwsgi_params"
+-'  1  2  ~/funvocaback/uwsgi_params
+|4,39,1,2,1664195122,"~/funvocaback/uwsgi_params"
+-'  1  2  ~/funvocaback/uwsgi_params
+|4,39,1,2,1664195122,"~/funvocaback/uwsgi_params"
+-'  5  20  ~/funvocaback/funvocaback_uwsgi.ini
+|4,39,5,20,1664192945,"~/funvocaback/funvocaback_uwsgi.ini"
+-'  5  20  ~/funvocaback/funvocaback_uwsgi.ini
+|4,39,5,20,1664192945,"~/funvocaback/funvocaback_uwsgi.ini"
 -'  5  20  ~/funvocaback/funvocaback_uwsgi.ini
 |4,39,5,20,1664192945,"~/funvocaback/funvocaback_uwsgi.ini"
 -'  5  20  ~/funvocaback/funvocaback_uwsgi.ini
@@ -81,9 +107,27 @@ $
 -'  7  47  ~/funvocaback/funvocaback_uwsgi.ini
 |4,39,7,47,1664192898,"~/funvocaback/funvocaback_uwsgi.ini"
 -'  7  47  ~/funvocaback/funvocaback_uwsgi.ini
+|4,39,7,47,1664192898,"~/funvocaback/funvocaback_uwsgi.ini"
+-'  7  47  ~/funvocaback/funvocaback_uwsgi.ini
+|4,39,7,47,1664192898,"~/funvocaback/funvocaback_uwsgi.ini"
+-'  7  47  ~/funvocaback/funvocaback_uwsgi.ini
+|4,39,7,47,1664192898,"~/funvocaback/funvocaback_uwsgi.ini"
+-'  7  47  ~/funvocaback/funvocaback_uwsgi.ini
+|4,39,7,47,1664192898,"~/funvocaback/funvocaback_uwsgi.ini"
+-'  7  47  ~/funvocaback/funvocaback_uwsgi.ini
+|4,39,7,47,1664192898,"~/funvocaback/funvocaback_uwsgi.ini"
+-'  7  47  ~/funvocaback/funvocaback_uwsgi.ini
 |4,39,7,47,1664192456,"~/funvocaback/funvocaback_uwsgi.ini"
 -'  7  47  ~/funvocaback/funvocaback_uwsgi.ini
 |4,39,7,47,1664192456,"~/funvocaback/funvocaback_uwsgi.ini"
+-'  7  47  ~/funvocaback/funvocaback_uwsgi.ini
+|4,39,7,47,1664192456,"~/funvocaback/funvocaback_uwsgi.ini"
+-'  7  47  ~/funvocaback/funvocaback_uwsgi.ini
+|4,39,7,47,1664192456,"~/funvocaback/funvocaback_uwsgi.ini"
+-'  7  48  ~/funvocaback/funvocaback_uwsgi.ini
+|4,39,7,48,1664192406,"~/funvocaback/funvocaback_uwsgi.ini"
+-'  7  48  ~/funvocaback/funvocaback_uwsgi.ini
+|4,39,7,48,1664192406,"~/funvocaback/funvocaback_uwsgi.ini"
 -'  7  48  ~/funvocaback/funvocaback_uwsgi.ini
 |4,39,7,48,1664192406,"~/funvocaback/funvocaback_uwsgi.ini"
 -'  7  48  ~/funvocaback/funvocaback_uwsgi.ini
@@ -96,179 +140,144 @@ $
 |4,39,5,27,1664192238,"~/funvocaback/funvocaback_uwsgi.ini"
 -'  5  27  ~/funvocaback/funvocaback_uwsgi.ini
 |4,39,5,27,1664192238,"~/funvocaback/funvocaback_uwsgi.ini"
--'  1  3  /var/log/nginx/error.log
-|4,39,1,3,1664190417,"/var/log/nginx/error.log"
--'  1  3  /var/log/nginx/error.log
-|4,39,1,3,1664190417,"/var/log/nginx/error.log"
--'  1  3  /var/log/nginx/error.log
-|4,39,1,3,1664190417,"/var/log/nginx/error.log"
--'  1  3  /var/log/nginx/error.log
-|4,39,1,3,1664190417,"/var/log/nginx/error.log"
--'  1  3  /var/log/nginx/error.log
-|4,39,1,3,1664190417,"/var/log/nginx/error.log"
--'  1  3  /var/log/nginx/error.log
-|4,39,1,3,1664190417,"/var/log/nginx/error.log"
--'  1  3  /var/log/nginx/error.log
-|4,39,1,3,1664190417,"/var/log/nginx/error.log"
--'  1  3  /var/log/nginx/error.log
-|4,39,1,3,1664190417,"/var/log/nginx/error.log"
--'  1  3  /var/log/nginx/error.log
-|4,39,1,3,1664190417,"/var/log/nginx/error.log"
--'  1  3  /var/log/nginx/error.log
-|4,39,1,3,1664190417,"/var/log/nginx/error.log"
--'  1  3  /var/log/nginx/error.log
-|4,39,1,3,1664190417,"/var/log/nginx/error.log"
--'  1  3  /var/log/nginx/error.log
-|4,39,1,3,1664190417,"/var/log/nginx/error.log"
--'  1  3  /var/log/nginx/error.log
-|4,39,1,3,1664190417,"/var/log/nginx/error.log"
--'  1  3  /var/log/nginx/error.log
-|4,39,1,3,1664190417,"/var/log/nginx/error.log"
--'  1  3  /var/log/nginx/error.log
-|4,39,1,3,1664190417,"/var/log/nginx/error.log"
--'  1  3  /var/log/nginx/error.log
-|4,39,1,3,1664190417,"/var/log/nginx/error.log"
--'  1  3  /var/log/nginx/error.log
-|4,39,1,3,1664190417,"/var/log/nginx/error.log"
--'  1  3  /var/log/nginx/error.log
-|4,39,1,3,1664190417,"/var/log/nginx/error.log"
--'  1  3  /var/log/nginx/error.log
-|4,39,1,3,1664190417,"/var/log/nginx/error.log"
--'  1  3  /var/log/nginx/error.log
-|4,39,1,3,1664190417,"/var/log/nginx/error.log"
--'  1  3  /var/log/nginx/error.log
-|4,39,1,3,1664190417,"/var/log/nginx/error.log"
--'  1  3  /var/log/nginx/error.log
-|4,39,1,3,1664190417,"/var/log/nginx/error.log"
--'  1  3  /var/log/nginx/error.log
-|4,39,1,3,1664190417,"/var/log/nginx/error.log"
--'  1  3  /var/log/nginx/error.log
-|4,39,1,3,1664190417,"/var/log/nginx/error.log"
--'  1  3  /var/log/nginx/error.log
-|4,39,1,3,1664190417,"/var/log/nginx/error.log"
--'  1  3  /var/log/nginx/error.log
-|4,39,1,3,1664190417,"/var/log/nginx/error.log"
--'  1  3  /var/log/nginx/error.log
-|4,39,1,3,1664190417,"/var/log/nginx/error.log"
--'  1  3  /var/log/nginx/error.log
-|4,39,1,3,1664190417,"/var/log/nginx/error.log"
--'  1  3  /var/log/nginx/error.log
-|4,39,1,3,1664190417,"/var/log/nginx/error.log"
--'  1  3  /var/log/nginx/error.log
-|4,39,1,3,1664190417,"/var/log/nginx/error.log"
--'  1  3  /var/log/nginx/error.log
-|4,39,1,3,1664190417,"/var/log/nginx/error.log"
--'  1  3  /var/log/nginx/error.log
-|4,39,1,3,1664190417,"/var/log/nginx/error.log"
--'  1  0  /var/log/nginx/error.log
-|4,39,1,0,1664189971,"/var/log/nginx/error.log"
--'  1  0  /var/log/nginx/error.log
-|4,39,1,0,1664189971,"/var/log/nginx/error.log"
--'  1  0  /var/log/nginx/error.log
-|4,39,1,0,1664189971,"/var/log/nginx/error.log"
--'  1  0  /var/log/nginx/error.log
-|4,39,1,0,1664189971,"/var/log/nginx/error.log"
--'  1  0  /var/log/nginx/error.log
-|4,39,1,0,1664189971,"/var/log/nginx/error.log"
--'  1  0  /var/log/nginx/error.log
-|4,39,1,0,1664189971,"/var/log/nginx/error.log"
--'  1  0  /var/log/nginx/error.log
-|4,39,1,0,1664189971,"/var/log/nginx/error.log"
--'  1  0  /var/log/nginx/error.log
-|4,39,1,0,1664189971,"/var/log/nginx/error.log"
--'  1  0  /var/log/nginx/error.log
-|4,39,1,0,1664189971,"/var/log/nginx/error.log"
--'  1  0  /var/log/nginx/error.log
-|4,39,1,0,1664189971,"/var/log/nginx/error.log"
--'  1  0  /var/log/nginx/error.log
-|4,39,1,0,1664189971,"/var/log/nginx/error.log"
--'  1  0  /var/log/nginx/error.log
-|4,39,1,0,1664189971,"/var/log/nginx/error.log"
--'  1  0  /var/log/nginx/error.log
-|4,39,1,0,1664189971,"/var/log/nginx/error.log"
--'  1  0  /var/log/nginx/error.log
-|4,39,1,0,1664189971,"/var/log/nginx/error.log"
--'  1  0  /var/log/nginx/error.log
-|4,39,1,0,1664189971,"/var/log/nginx/error.log"
--'  1  0  /var/log/nginx/error.log
-|4,39,1,0,1664189971,"/var/log/nginx/error.log"
--'  1  0  /var/log/nginx/error.log
-|4,39,1,0,1664189971,"/var/log/nginx/error.log"
--'  1  0  /var/log/nginx/error.log
-|4,39,1,0,1664189971,"/var/log/nginx/error.log"
--'  1  0  /var/log/nginx/error.log
-|4,39,1,0,1664189971,"/var/log/nginx/error.log"
--'  1  0  /var/log/nginx/error.log
-|4,39,1,0,1664189971,"/var/log/nginx/error.log"
--'  1  0  /var/log/nginx/error.log
-|4,39,1,0,1664189971,"/var/log/nginx/error.log"
--'  1  0  /var/log/nginx/error.log
-|4,39,1,0,1664189971,"/var/log/nginx/error.log"
--'  1  0  /var/log/nginx/error.log
-|4,39,1,0,1664189971,"/var/log/nginx/error.log"
--'  1  0  /var/log/nginx/error.log
-|4,39,1,0,1664189971,"/var/log/nginx/error.log"
--'  1  0  /var/log/nginx/error.log
-|4,39,1,0,1664189971,"/var/log/nginx/error.log"
--'  1  0  /var/log/nginx/error.log
-|4,39,1,0,1664189971,"/var/log/nginx/error.log"
--'  1  0  /var/log/nginx/error.log
-|4,39,1,0,1664189971,"/var/log/nginx/error.log"
--'  1  0  /var/log/nginx/error.log
-|4,39,1,0,1664189971,"/var/log/nginx/error.log"
--'  1  0  /var/log/nginx/error.log
-|4,39,1,0,1664189971,"/var/log/nginx/error.log"
--'  1  0  /var/log/nginx/error.log
-|4,39,1,0,1664189971,"/var/log/nginx/error.log"
--'  1  0  /var/log/nginx/error.log
-|4,39,1,0,1664189971,"/var/log/nginx/error.log"
--'  1  0  /var/log/nginx/error.log
-|4,39,1,0,1664189971,"/var/log/nginx/error.log"
 -'  5  27  ~/funvocaback/funvocaback_uwsgi.ini
-|4,39,5,27,1664189088,"~/funvocaback/funvocaback_uwsgi.ini"
+|4,39,5,27,1664192238,"~/funvocaback/funvocaback_uwsgi.ini"
 -'  5  27  ~/funvocaback/funvocaback_uwsgi.ini
-|4,39,5,27,1664189088,"~/funvocaback/funvocaback_uwsgi.ini"
+|4,39,5,27,1664192238,"~/funvocaback/funvocaback_uwsgi.ini"
 -'  5  27  ~/funvocaback/funvocaback_uwsgi.ini
-|4,39,5,27,1664189088,"~/funvocaback/funvocaback_uwsgi.ini"
+|4,39,5,27,1664192238,"~/funvocaback/funvocaback_uwsgi.ini"
 -'  5  27  ~/funvocaback/funvocaback_uwsgi.ini
-|4,39,5,27,1664189088,"~/funvocaback/funvocaback_uwsgi.ini"
--'  5  27  ~/funvocaback/funvocaback_uwsgi.ini
-|4,39,5,27,1664189088,"~/funvocaback/funvocaback_uwsgi.ini"
--'  5  27  ~/funvocaback/funvocaback_uwsgi.ini
-|4,39,5,27,1664189088,"~/funvocaback/funvocaback_uwsgi.ini"
--'  5  27  ~/funvocaback/funvocaback_uwsgi.ini
-|4,39,5,27,1664189088,"~/funvocaback/funvocaback_uwsgi.ini"
--'  5  27  ~/funvocaback/funvocaback_uwsgi.ini
-|4,39,5,27,1664189088,"~/funvocaback/funvocaback_uwsgi.ini"
--'  1  0  ~/funvocaback/funvocaback_uwsgi.ini
-|4,39,1,0,1664188997,"~/funvocaback/funvocaback_uwsgi.ini"
--'  1  0  ~/funvocaback/funvocaback_uwsgi.ini
-|4,39,1,0,1664188997,"~/funvocaback/funvocaback_uwsgi.ini"
--'  1  0  ~/funvocaback/funvocaback_uwsgi.ini
-|4,39,1,0,1664188997,"~/funvocaback/funvocaback_uwsgi.ini"
--'  1  0  ~/funvocaback/funvocaback_uwsgi.ini
-|4,39,1,0,1664188997,"~/funvocaback/funvocaback_uwsgi.ini"
--'  1  0  ~/funvocaback/funvocaback_uwsgi.ini
-|4,39,1,0,1664188997,"~/funvocaback/funvocaback_uwsgi.ini"
--'  1  0  ~/funvocaback/funvocaback_uwsgi.ini
-|4,39,1,0,1664188997,"~/funvocaback/funvocaback_uwsgi.ini"
--'  1  0  ~/funvocaback/funvocaback_uwsgi.ini
-|4,39,1,0,1664188997,"~/funvocaback/funvocaback_uwsgi.ini"
--'  1  0  ~/funvocaback/funvocaback_uwsgi.ini
-|4,39,1,0,1664188997,"~/funvocaback/funvocaback_uwsgi.ini"
--'  1  0  ~/funvocaback/funvocaback_uwsgi.ini
-|4,39,1,0,1664188997,"~/funvocaback/funvocaback_uwsgi.ini"
--'  1  0  ~/funvocaback/funvocaback_uwsgi.ini
-|4,39,1,0,1664188997,"~/funvocaback/funvocaback_uwsgi.ini"
--'  1  0  ~/funvocaback/funvocaback_uwsgi.ini
-|4,39,1,0,1664188997,"~/funvocaback/funvocaback_uwsgi.ini"
--'  1  0  ~/funvocaback/funvocaback_uwsgi.ini
-|4,39,1,0,1664188997,"~/funvocaback/funvocaback_uwsgi.ini"
+|4,39,5,27,1664192238,"~/funvocaback/funvocaback_uwsgi.ini"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
+-'  1  3  /var/log/nginx/error.log
+|4,39,1,3,1664190417,"/var/log/nginx/error.log"
 
 # History of marks within files (newest to oldest):
 
+> /etc/systemd/system/emperor.uwsgi.service
+	*	1664411972	0
+	"	7	84
+	^	7	85
+	.	7	84
+	+	9	11
+	+	7	84
+	p	1	0
+
 > ~/funvocaback/funvocaback_uwsgi.ini
-	*	1664253225	0
+	*	1664411740	0
 	"	5	20
 	^	5	21
 	.	5	20

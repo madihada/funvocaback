@@ -454,3 +454,102 @@ cd /home/ubuntu/funvocaback/
 source venv/bin/activate
 ls
 vim funvocaback_uwsgi.ini 
+ls
+pwd
+cd funvocaback/
+ls
+ls -al
+git branch -v
+git branch -r
+git st
+git status
+git switch -c develop
+git switch -c add-nginx-uwsgi
+git add .
+git commit -m "Added-nginx-uwsgi"
+git push -u origin add-nginx-uwsgi 
+cat /home/ubuntu/.ssh/id_rsa.pub
+git push -u origin add-nginx-uwsgi 
+git push origin develop
+git branch -r
+git branch -v
+git status
+git push origin develop
+pwd
+cd ..
+ls
+ls -al
+cd funvocaback/
+ls
+ls -al
+mv .git /home/ubuntu/
+mv .gitignore /home/ubuntu/
+ls -al
+cd ..
+ls
+ls -al
+git branch -r
+git branch -v
+git add .
+git commit -m "Changed git location"
+git push
+git l
+git log --oneline --graph
+git log --graph --pretty=short --no-merges
+ls
+git st
+git status
+git push origin develop
+ls
+cd funvocaback/
+ls
+vim funvocaback_uwsgi.ini 
+cd /home/ubuntu/venv/
+ls
+cd venv
+mkdir vassals
+sudo ln -s /home/ubuntu/funvocaback/funvocaback_uwsgi.ini /home/ubuntu/funvocaback/venv/vassals/
+cd /etc/systemd/system/
+ls -al
+vim emperor.uwsgi.service
+sudo vim emperor.uwsgi.service
+systemctl enable emperor.uwsgi.service
+sudo systemctl enable emperor.uwsgi.service
+sudo systemctl start emperor.uwsgi.service
+sudo systemctl status emperor.uwsgi.service
+sudo systemctl stop emperor.uwsgi.service
+sudo systemctl status emperor.uwsgi.service
+sudo systemctl start emperor.uwsgi.service
+sudo systemctl status emperor.uwsgi.service
+sudo /etc/init.d/nginx status
+sudo systemctl stop emperor.uwsgi.service
+uwsgi --emperor /home/ubuntu/funvocaback/venv/vassals --uid www-data --gid www-data
+ls
+cd ..
+cd /home/ubuntu/funvocaback/
+ls
+source venv/bin/activate
+uwsgi --emperor /home/ubuntu/funvocaback/venv/vassals --uid www-data --gid www-data
+ls
+px aux
+ps aux
+uwsgi --ini funvocaback_uwsgi.ini 
+ps aux
+sudo /etc/init.d/nginx status
+sudo reboot
+uwsgi --emperor /home/udoms/env/md/vassals --uid www-data --gid www-data
+cd /home/ubuntu/funvocaback/
+source venv/bin/activate
+uwsgi --emperor /home/udoms/env/md/vassals --uid www-data --gid www-data
+sudo vim /etc/systemd/system/emperor.uwsgi.service
+ls
+systemctl enable emperor.uwsgi.service
+ps aux
+sudo nginx status
+systemctl status emperor.uwsgi.service
+sudo systemctl enable emperor.uwsgi.service
+sudo systemctl start emperor.uwsgi.service
+sudo systemctl status emperor.uwsgi.service
+sudo systemctl stop emperor.uwsgi.service
+sudo systemctl start emperor.uwsgi.service
+sudo reboot
