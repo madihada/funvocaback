@@ -553,3 +553,43 @@ sudo systemctl status emperor.uwsgi.service
 sudo systemctl stop emperor.uwsgi.service
 sudo systemctl start emperor.uwsgi.service
 sudo reboot
+ls
+git branch -v
+git status
+git add .
+git commit -m "Finished Adding nginx and uwsgi with emperor mode and auto rebooting system"
+git push origin add-nginx-uwsgi 
+git  log  --graph
+git push origin develop
+git push develop
+git log --graph
+git fetch
+git log --graph
+git fetch --prune
+git log --graph
+git switch develop
+git pull origin develop 
+git log -graph
+git log --graph
+ls
+vim uwsgi-emperor.log 
+ls
+ls -al
+vim .gitignore 
+git status
+git log
+git branch -v
+git switch add-nginx-uwsgi 
+git log
+git switch develop 
+git status
+git branch --delete add-nginx-uwsgi 
+git branch -v
+git push branch --delete add-nginx-uwsgi
+git branch -r
+git push origin --delete add-nginx-uwsgi
+git branch -r
+git remote -v
+git branch -v
+ls
+exit
