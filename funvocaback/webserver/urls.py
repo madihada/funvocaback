@@ -3,6 +3,7 @@ from django.urls import path, include
 from .views import helloAPI
 from . import views
 
+
 urlpatterns = [
     path('', views.apiOverview, name="api-overview"),
     path('word-list/', views.wordList, name="word-list"),
@@ -10,4 +11,6 @@ urlpatterns = [
     path('word-create/', views.wordCreate, name="word-create"),
     path('word-update/<str:pk>/', views.wordUpdate, name="word-update"),
     path('word-delete/<str:pk>/', views.wordDelete, name="word-delete"),
+
+    path('chat-server/', views.chatServer, name="chat-server"),
 ]
